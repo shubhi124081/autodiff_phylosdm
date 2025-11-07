@@ -3,6 +3,22 @@ Probabilistic Machine Learning for Phylogenetic Species Distribution Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Last Commit](https://img.shields.io/github/last-commit/shubhi124081/autodiff_phylosdm)](https://github.com/shubhi124081/autodiff_phylosdm/commits/main) 
+---
+
+### ⚠️ Project Status: Under Active Development
+
+This repository is **under active development** and not yet production-ready.  
+The current version represents a **transition phase from a Stan-based Bayesian framework to a Template Model Builder (TMB)** implementation.  
+
+- Core algorithms and probabilistic formulations are stable, but **interfaces and functions may change**.  
+- Expect **frequent updates**, restructuring, and improvements in computational efficiency.  
+- Model behavior and outputs should be treated as **experimental** until the TMB workflow is fully validated against the original Stan models.  
+
+Researchers and collaborators are welcome to explore the framework, but please **use caution for applied or large-scale analyses** until the codebase reaches a stable release.
+
+---
+
+
 ## Overview
 
 This repository implements a probabilistic framework for phylogenetic species distribution models (SDMs) using Template Model Builder (TMB) for high-performance automatic differentiation and scalable likelihood optimization. It integrates spatial, phylogenetic, and observation-effort information to jointly learn environmental niches and phylogenetic covariance across species.
