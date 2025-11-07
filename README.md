@@ -53,12 +53,21 @@ The model uses Laplace approximation (via TMB) to integrate over random effects 
 phylo-sdms/
 ├── scripts/
 │   ├── 000-phyloGenie_functions.R
-│   ├── 010-generate_data.R
-│   ├── 020-tmb_model.cpp
-│   ├── 030-fit_model.R
-│   ├── 033-spatial_prediction.R
-│   ├── 040-evaluation.R
-│   └── 050-visualization.R
+│   ├── 000-config.yaml
+│   ├── 011-gen_data.R
+│   ├── 010-workflow.sh
+│   ├── 020-lgcp_background.cpp
+│   ├── 021-buildjobs.R
+│   ├── 023-main.R
+│   ├── 024-runjobs.R
+│   ├── 031-cond_pred.R
+│   ├── 031-recursive_cond_pred.R
+│   ├── 032-eval.R
+│   ├── 032-recursive_eval.R
+│   ├── 032-eval.R
+│   ├── 034-soft_clip.R
+│   ├── 034-spatial_pred.R
+│   └── 035-thresholds.R
 ├── data/
 ├── raw_data/
 ├── res/
@@ -72,6 +81,6 @@ Install required R packages and compile the TMB model:
 
 ```r
 install.packages(c("TMB", "terra", "Matrix", "ggplot2", "parallel", "data.table"))
-TMB::compile("scripts/020-tmb_model.cpp")
-dyn.load(dynlib("scripts/020-tmb_model"))
+TMB::compile("scripts/021-lgcp_background.cpp")
+dyn.load(dynlib("scripts/021-lgcp_background.cpp"))
 ```
