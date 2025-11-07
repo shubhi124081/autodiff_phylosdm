@@ -2,7 +2,6 @@
 Probabilistic Machine Learning for Phylogenetic Species Distribution Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/shubhi124081/phylo-sdms?style=social)](https://github.com/shubhi124081/autodiff_phylosdm/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/shubhi124081/autodiff_phylosdm)](https://github.com/shubhi124081/autodiff_phylosdm/commits/main) 
 ## Overview
 
