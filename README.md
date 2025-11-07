@@ -2,10 +2,8 @@
 Probabilistic Machine Learning for Phylogenetic Species Distribution Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Commit](https://img.shields.io/github/last-commit/shubhi124081/phyloSDMs2)](https://github.com/shubhi124081/phyloSDMs2/commits/main)
-[![Stars](https://img.shields.io/github/stars/shubhi124081/phylo-sdms?style=social)](https://github.com/shubhi124081/phyloSDMs2/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/shubhi124081/autodiff_phylosdm)](https://github.com/shubhi124081/autodiff_phylosdm/commits/main) [![Stars](https://img.shields.io/github/stars/shubhi124081/autodiff_phylosdm?style=social)](https://github.com/shubhi124081/autodiff_phylosdm/stargazers)
-
+[![Stars](https://img.shields.io/github/stars/shubhi124081/phylo-sdms?style=social)](https://github.com/shubhi124081/autodiff_phylosdm/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/shubhi124081/autodiff_phylosdm)](https://github.com/shubhi124081/autodiff_phylosdm/commits/main) 
 ## Overview
 
 This repository implements a probabilistic framework for phylogenetic species distribution models (SDMs) using Template Model Builder (TMB) for high-performance automatic differentiation and scalable likelihood optimization. It integrates spatial, phylogenetic, and observation-effort information to jointly learn environmental niches and phylogenetic covariance across species.
