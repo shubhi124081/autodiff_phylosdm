@@ -49,6 +49,7 @@ The model uses Laplace approximation (via TMB) to integrate over random effects 
 
 ## Repository structure
 
+```text
 phylo-sdms/
 ├── scripts/
 │   ├── 000-phyloGenie_functions.R
@@ -63,6 +64,7 @@ phylo-sdms/
 ├── res/
 ├── analysis/
 └── README.md
+```
 
 ## Installation
 
